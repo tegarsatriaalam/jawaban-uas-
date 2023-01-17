@@ -1,0 +1,57 @@
+import java.util.ArrayList;
+public class facebook {
+    private String post;
+    private String beranda;
+    private  String market;
+    private String grup;
+    private String halaman;
+
+    public void setPost(String post) {
+        this.post = post;
+    }
+
+    public String getBeranda() {
+        return beranda;
+    }
+
+    public void setBeranda(String beranda) {
+        this.beranda = beranda;
+    }
+
+    public String getMarket() {
+        return market;
+    }
+
+    public void setMarket(String market) {
+        this.market = market;
+    }
+
+    public String getGrup() {
+        return grup;
+    }
+
+    public void setGrup(String grup) {
+        this.grup = grup;
+    }
+
+    public String getHalaman() {
+        return halaman;
+    }
+
+    public void setHalaman(String halaman) {
+        this.halaman = halaman;
+    }
+
+    public String getPost(){
+     return post;
+}
+public facebook(){
+}
+
+public facebook(String pst,String brd,String mrt,String grp,String hlm) {
+    this.post = pst;
+    this.beranda = brd;
+    this.market = mrt;
+    this.halaman = hlm;
+}
+}
